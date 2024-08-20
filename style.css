@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Apply the new font */
+    font-family: 'Poppins', sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ body {
     border-radius: 15px;
     padding: 0; 
     padding-bottom: 50px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     text-align: center;
     transition: transform 0.3s ease;
     width: 100%;
@@ -85,14 +85,14 @@ body {
 .name {
     font-family: 'SpaceFont';
     font-size: 3em;
-    font-weight: bold; /* Make title bold */
+    font-weight: bold;
     margin: 20px 0 10px;
     color: #6a0dad;
     animation: fadeInUp 1.5s ease-in-out;
 }
 
 .description {
-    font-size: 0.8em; /* Slightly reduced font size */
+    font-size: 0.8em;
     margin-bottom: 30px;
     color: #666;
     animation: fadeInUp 1.8s ease-in-out;
@@ -117,7 +117,7 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center text in the button */
+    justify-content: center;
     gap: 10px;
     width: 100%;
     max-width: 300px;
@@ -200,7 +200,7 @@ button:hover {
     }
 
     .description {
-        font-size: 0.85em; /* Slightly reduced font size */
+        font-size: 0.75em; /* Slightly reduced font size */
     }
 
     button {
