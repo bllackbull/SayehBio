@@ -238,7 +238,7 @@ button:hover {
 
   .card {
     max-width: 70%; /* Further reduced to prevent the card from filling the screen */
-    max-height: 70%;
+    max-height: 85%;
   }
 
   .banner {
